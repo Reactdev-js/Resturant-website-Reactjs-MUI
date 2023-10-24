@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Banner from "../images/banner.jpeg";
 import "../styles/HomeStyles.css";
 
+
 const Home = () => {
   return (
     <Layout>
@@ -16,6 +17,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
+      
     </Layout>
   );
 };

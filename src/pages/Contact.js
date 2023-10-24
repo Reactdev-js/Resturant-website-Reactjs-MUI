@@ -37,12 +37,12 @@ const Contact = () => {
           },
         }}
       >
-        <TableContainer component={Paper}>
+        <TableContainer component={Paper} >
           <Table aria-label="contact table">
             <TableHead>
               <TableRow>
                 <TableCell
-                  sx={{ bgcolor: "black", color: "white" }}
+                  sx={{ bgcolor: "red", color: "white" }}
                   align="center"
                 >
                   Contact Details
@@ -58,12 +58,12 @@ const Contact = () => {
               </TableRow>
               <TableRow>
                 <TableCell>
-                  <MailIcon sx={{ color: "skyblue", pt: 1 }} /> help@myrest.com
+                  <MailIcon sx={{ color: "skyblue", pt: 1 }} /> sunnykushwahasunnykushwaha@gmail.com
                 </TableCell>
               </TableRow>
               <TableRow>
                 <TableCell>
-                  <CallIcon sx={{ color: "green", pt: 1 }} /> 1234567890
+                  <CallIcon sx={{ color: "green", pt: 1 }} /> 7007877595
                 </TableCell>
               </TableRow>
             </TableBody>
